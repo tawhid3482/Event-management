@@ -6,7 +6,7 @@ B: ReferenceError: greetign is not defined
 C: undefined
 
 Answer:=> B: ReferenceError: greetign is not defined
-explanation:=> i see the code greetign is a empty object.As a result, JavaScript throws a ReferenceError because greetign is not defined
+explanation:=> I see the code greetign is a empty object.As a result, JavaScript throws a ReferenceError because greetign is not defined
 
 2/ function sum(a, b) {
   return a + b;
@@ -18,7 +18,7 @@ B: TypeError
 C: "12"
 D: 3
 Answer:=> A: NaN
-explanation:=> in the code a=1 and b="2" so a is a number but b is a string. when i try to add a number and a string in JavaScript the result is NaN
+explanation:=> In the code a=1 and b="2" so a is a number but b is a string. when i try to add a number and a string in JavaScript the result is NaN
 
 3/ const food = ["🍕", "🍫", "🥑", "🍔"];
 const info = { favoriteFood: food[0] };
@@ -32,7 +32,7 @@ C: ['🍝', '🍕', '🍫', '🥑', '🍔']
 D: ReferenceError
 
 Answer:=> A: ['🍕', '🍫', '🥑', '🍔']
-explanation:=> if the variable is an object, its properties can be modified. In the given scenario, the info.favoriteFood property is changed to "🍝", but the original food array remains unaltered, resulting in ['🍕', '🍫', '🥑', '🍔'] 
+explanation:=> If the variable is an object, its properties can be modified. In the given scenario, the info.favoriteFood property is changed to "🍝", but the original food array remains unaltered, resulting in ['🍕', '🍫', '🥑', '🍔'] 
 
 4/ function sayHi(name) {
   return `Hi there, ${name}`;
