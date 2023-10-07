@@ -1,7 +1,12 @@
+import { Helmet } from "react-helmet";
+
 const ProductDetailsShow = ({ product }) => {
   const { img, name, long_description } = product;
   return (
     <div>
+        <Helmet>
+                <title>Health-Products</title>
+            </Helmet>
       <div className=" flex justify-between gap-5 items-center  h-[80vh] bg-base-200 shadow-xl">
         <figure  className="w-full h-full">
           <img src={img}  className="w-full h-full" alt={name} />

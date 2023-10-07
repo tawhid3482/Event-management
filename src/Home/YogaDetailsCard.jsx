@@ -1,7 +1,12 @@
+import { Helmet } from "react-helmet";
+
 const YogaDetailsCard = ({ yoga }) => {
   const { img, name, description } = yoga;
   return (
     <div>
+        <Helmet>
+                <title>Health-Yoga Details</title>
+            </Helmet>
       <div className="card card-side w-full h-60 bg-base-100 shadow-xl">
         <figure>
           <img className="w-full" src={img} alt="Movie" />

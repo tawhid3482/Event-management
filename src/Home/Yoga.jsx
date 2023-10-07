@@ -1,13 +1,18 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 const Yoga = () => {
   return (
     <div>
+        <Helmet>
+                <title>Health-Yoga</title>
+            </Helmet>
       <div
         className="hero h-[550px]"
         style={{
           backgroundImage:
-            "url(https://thumbs.dreamstime.com/b/yoga-poses-silhouettes-woman-body-balance-asana-position-people-workout-exercise-115595870.jpg)",
+            "url(https://images.indianexpress.com/2023/03/yoga-for-beginners.jpg)",
+            
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>

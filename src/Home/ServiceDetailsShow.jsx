@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 
 const ServiceDetailsShow = ({ servicecard }) => {
     console.log(servicecard)
@@ -6,6 +7,9 @@ const ServiceDetailsShow = ({ servicecard }) => {
 
   return (
     <div>
+        <Helmet>
+                <title>Health-Service Details</title>
+            </Helmet>
       <div className="card card-compact w-full bg-base-100 shadow-xl">
         <figure>
           <img

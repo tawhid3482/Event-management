@@ -2,10 +2,14 @@ import fair from "../../public/images/health-fair-marketing-final-draft.jpg";
 import fair2 from "../../public/images/istockphoto-1306247421-170667a.webp";
 import fair3 from "../../public/images/360_F_579232550_T652ihi4kkYuhOEJXMEJRb10DjiHZsw9.jpg";
 import fair4 from "../../public/images/istockphoto-638362318-612x612.jpg"
+import { Helmet } from "react-helmet";
 
 const Fairs = () => {
   return (
     <div>
+        <Helmet>
+                <title>Health-Health Fair</title>
+            </Helmet>
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
           <img src={fair} className="w-full h-96" />

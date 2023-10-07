@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
 import well from "../../public/images/Wellness-Wheel.png";
+import { Helmet } from "react-helmet";
 const Wellness = () => {
   return (
     <div className="m-5">
+      <Helmet>
+        <title>Health-Wellness</title>
+      </Helmet>
       <p className="text-3xl font-bold text-center">Wellness</p>
       <div className="flex-col justify-center md:flex-row md:flex md:justify-between items-center ">
         <div className="w-1/2 mx-auto">
@@ -24,9 +28,9 @@ const Wellness = () => {
         </div>
       </div>
       <div className="text-center">
-      <Link to='/wellnessDetails'>
-      <button className="btn bg-blue-500 text-white ">See details</button>
-      </Link>
+        <Link to="/wellnessDetails">
+          <button className="btn bg-blue-500 text-white ">See details</button>
+        </Link>
       </div>
     </div>
   );
