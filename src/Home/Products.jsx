@@ -6,7 +6,7 @@ const Products = ({ products }) => {
 
   return (
     <div>
-      <div className="card card-compact w-96 h-96 bg-base-200 shadow-xl">
+      <div className="card card-compact w-96 md:w-80 lg:w-96 h-96 bg-base-200 shadow-xl">
         <figure>
           <img
             src={img}
