@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "img": "https://bookretreats.com/blog/wp-content/uploads/2022/07/1000_1628539212.jpg",
+    "name": "Mindful Meditation Retreat",
+    "price": 199.99,
+    "description": "Join our Mindful Meditation Retreat to experience deep relaxation, guided meditation sessions, and mindfulness practices. Discover inner peace and reduce stress in a serene natural setting."
+  },
+  {
+    "id": "2",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqoaFGAQoJ2KGo96DLINasf5UkfnjTmgKs_PtD7QuLNZq_wPobIGFnGwedYaoNa5QRm9M&usqp=CAU",
+    "name": "Fitness Bootcamp Challenge",
+    "price": 149.99,
+    "description": "Embark on a Fitness Bootcamp Challenge designed to boost your endurance, strength, and overall fitness level. Engage in high-intensity workouts, receive personalized coaching, and achieve your fitness goals."
+  },
+  {
+    "id": "3",
+    "img": "https://images.squarespace-cdn.com/content/v1/5f0be85685b332169c7b8168/1623390024425-FW4REWDZ50IKWBZS8T1N/Corporate+Nutrition+Workshop+Paramount+Pictures.jpg",
+    "name": "Nutrition and Wellness Workshop",
+    "price": 79.99,
+    "description": "Participate in our Nutrition and Wellness Workshop to learn about balanced diets, healthy eating habits, and nutritional choices. Get expert advice on creating a personalized wellness plan."
+  },
+  {
+    "id": "4",
+    "img": "https://cdn.bookretreats.com/assets/photo/retreat/0m/21k/21562/p_616143/1000_1460555539.jpg?width=1200",
+    "name": "Yoga and Wellness Retreat",
+    "price": 249.99,
+    "description": "Immerse yourself in our Yoga and Wellness Retreat set in a tranquil environment. Experience daily yoga sessions, meditation, nutritious meals, and holistic wellness activities to rejuvenate your mind and body."
+  },
+  {
+    "id": "5",
+    "img": "https://www.anxietyaustralia.com.au/wp-content/uploads/2013/05/stress-management-workshops.jpg",
+    "name": "Stress Management Seminar",
+    "price": 59.99,
+    "description": "Attend our Stress Management Seminar to learn effective strategies for managing stress and enhancing mental well-being. Gain practical tools to cope with daily challenges and improve your overall quality of life."
+  },
+  {
+    "id": "6",
+    "img": "https://static.wixstatic.com/media/5b3d54_d5c3716effdb46c787967dedb32cb257~mv2.jpg/v1/fill/w_631,h_540,al_c,q_80,enc_auto/5b3d54_d5c3716effdb46c787967dedb32cb257~mv2.jpg",
+    "name": "Holistic Health Fair",
+    "price": 119.99,
+    "description": "Visit our Holistic Health Fair featuring various health and wellness vendors, workshops, free health screenings, and interactive sessions. Discover holistic approaches to well-being and explore natural health products."
+  }
+]

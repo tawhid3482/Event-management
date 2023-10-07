@@ -1,0 +1,39 @@
+[
+    {
+      "id": "1",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/766/yoga-in-beautiful-places-main-1516368886.jpg?resize=640:*",
+      "name": "Zen Yoga Retreat",
+      "description": "Unwind and relax in our Zen Yoga Retreat. Explore the depths of meditation and find inner peace. Suitable for beginners and advanced practitioners."
+    },
+    {
+      "id": "2",
+      "img": "https://www.fit5app.com/wp-content/uploads/2020/01/workout_girl2-1.png",
+      "name": "Total Body Fitness",
+      "description": "Join our Total Body Fitness classes to tone your muscles, improve cardiovascular health, and boost your energy. High-intensity workouts for all fitness levels."
+    },
+    {
+      "id": "3",
+      "img": "https://www.syterayoga.com/wp-content/uploads/2019/11/yoga.jpg",
+      "name": "Vinyasa Flow Yoga",
+      "description": "Experience the flow of movement and breath in our Vinyasa Flow Yoga classes. Enhance your flexibility, balance, and mindfulness in a dynamic yoga practice."
+    },
+    {
+      "id": "4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7MNAp3yJ9FyhfxhAiOm2124ejLD5cxV96DVcuzqIfnxzKBAwbG77ZfwSndkPF58Km5Jk&usqp=CAU",
+      "name": "CrossFit Challenge",
+      "description": "Take on our CrossFit Challenge and push your limits. Improve strength, endurance, and agility through a mix of functional movements and intense workouts."
+    },
+    {
+      "id": "5",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt1Si5f-QzBihNexDmL9EaxR60Ee5r0BzwvmWtV8bbsQ3oYTpyUdiDbZat_td2Ejkhojc&usqp=CAU",
+      "name": "Hatha Yoga Bliss",
+      "description": "Discover the tranquility of Hatha Yoga Bliss. Focus on alignment, breathing, and relaxation techniques. Suitable for those seeking a gentle yoga practice."
+    },
+    {
+      "id": "6",
+      "img": "https://i.ytimg.com/vi/6oLg5fFe5ww/maxresdefault.jpg",
+      "name": "Cardio Kickboxing",
+      "description": "Unleash your energy in our Cardio Kickboxing sessions. Burn calories, improve coordination, and build endurance while learning powerful martial arts moves."
+    }
+  ]
+  

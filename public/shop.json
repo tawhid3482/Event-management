@@ -1,0 +1,99 @@
+[
+    {
+      "id": "1",
+      "img": "https://www.adidashardware.com.au/cdn/shop/products/adyg-10300mr_adidas_yoga_matt_5mm_mystery_ruby_product-1-ch_1024x.jpg?v=1622432444",
+      "name": "Premium Yoga Mat",
+      "price": 29.99,
+      "short_description": "High-quality, non-slip yoga mat",
+      "long_description": "This premium yoga mat provides excellent cushioning and grip, making it ideal for various yoga practices. Its non-slip surface ensures stability during poses, and it is lightweight and easy to carry to your yoga classes."
+    },
+    {
+      "id": "2",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWq0E55Ew3d5abXaYIOryCUQpx9RZspFx1vOmH2UDxejt43bf5YwjaNm7v2geiPlTI7q0&usqp=CAU",
+      "name": "Yoga Block Set",
+      "price": 14.95,
+      "short_description": "Durable foam yoga blocks",
+      "long_description": "This yoga block set includes two sturdy foam blocks that provide support and stability for yoga poses. They are lightweight, easy to grip, and help with proper alignment. Perfect for beginners and experienced yogis alike."
+    },
+    {
+      "id": "3",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ55PDqo5-8Ed3CLLfeOfeFLEXKuJHezHW6XBXHXwPgnAPJFrrpwsPZOCoaRbZOzheSBw&usqp=CAU",
+      "name": "Yoga Strap",
+      "price": 9.99,
+      "short_description": "Adjustable yoga strap for flexibility",
+      "long_description": "Improve your flexibility and deepen your stretches with this adjustable yoga strap. Made from durable cotton, it helps you reach challenging poses by extending your reach. It's a versatile and essential tool for yoga practitioners."
+    },
+    {
+      "id": "4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHskOrv2O5uquds8knPijqbr1utUlqvxEXYWPuz2y1Ot1phzrGP7GRmGIFWPIL6VB4p-c&usqp=CAU",
+      "name": "Yoga Wheel",
+      "price": 34.99,
+      "short_description": "Strong and comfortable yoga wheel",
+      "long_description": "Enhance your yoga practice with this yoga wheel designed to support backbends and inversions. Its sturdy construction provides stability, and the padded surface offers comfort during exercises. A must-have prop for advanced yoga enthusiasts."
+    },
+    {
+      "id": "5",
+      "img": "https://i.ebayimg.com/images/g/HX8AAOSwRtVhrVXF/s-l400.jpg",
+      "name": "Yoga Mat Towel",
+      "price": 19.95,
+      "short_description": "Absorbent and non-slip yoga towel",
+      "long_description": "Stay sweat-free and slip-free during your yoga sessions with this absorbent mat towel. It provides a hygienic layer between you and your yoga mat, absorbs moisture, and enhances grip. Easy to wash and quick to dry for hassle-free use."
+    },
+    {
+      "id": "6",
+      "img": "https://cdn.bodynova.de/out/pictures/master/product/1/153x_yoga_bolster_eco_dinkel_total_alle_farben.jpg",
+      "name": "Yoga Bolster",
+      "price": 39.99,
+      "short_description": "Supportive yoga bolster for relaxation",
+      "long_description": "Relax and unwind with this plush yoga bolster. It offers gentle support for restorative yoga poses and promotes relaxation and deep breathing. The removable cover is machine washable, and the sturdy handle makes it easy to transport."
+    },
+    {
+      "id": "7",
+      "img": "https://ekotexyoga.co.uk/cdn/shop/products/ekotex-yoga-ekotex-yoga-organic-cotton-crescent-meditation-cushions-38609512694019_1800x1800.jpg?v=1659252475",
+      "name": "Meditation Cushion",
+      "price": 24.95,
+      "short_description": "Comfortable cushion for meditation",
+      "long_description": "Create a serene meditation space with this comfortable meditation cushion. It provides proper spine alignment and support during meditation sessions. The removable cover is made from breathable fabric, and the cushion is filled with eco-friendly material."
+    },
+    {
+      "id": "8",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKkcXIfqMmQASEjb_Ls5DVZBP03_H91ytTtgGt40NjCsS2x9hUIjcUiwnnSMveurLTjhY&usqp=CAU",
+      "name": "Yoga Strap with Loops",
+      "price": 12.99,
+      "short_description": "Multi-loop yoga strap for flexibility",
+      "long_description": "Improve your flexibility and enhance your stretching routine with this yoga strap featuring multiple loops. The loops provide varying levels of resistance, allowing you to deepen your stretches gradually. Made from durable cotton for long-lasting use."
+    },
+    {
+      "id": "9",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOfJD7yjovgZ7eDNy9hUMFtF4OEmy5RjXw6gJiWPoYEA2YrWfzmqGqkvSLfCjJRHc-970&usqp=CAU",
+      "name": "Cork Yoga Wheel",
+      "price": 44.95,
+      "short_description": "Eco-friendly cork yoga wheel",
+      "long_description": "Experience the benefits of a cork yoga wheel, known for its natural texture, firmness, and durability. This eco-friendly wheel supports backbends, inversions, and stretching exercises. The non-toxic cork surface provides superior grip and comfort."
+    },
+    {
+      "id": "10",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJpp1e224tWQS5an8LfACyXTc9kh_BxfI1SFkF9ZFID-rKfuE1sHdBRDG-5tIxKwS7IA&usqp=CAU",
+      "name": "Eco-Friendly Yoga Mat",
+      "price": 39.99,
+      "short_description": "Environmentally conscious yoga mat",
+      "long_description": "Practice yoga on this eco-friendly mat made from natural rubber and non-toxic materials. It offers excellent cushioning, stability, and grip. The textured surface prevents slipping and enhances your yoga experience while being kind to the planet."
+    },
+    {
+      "id": "11",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVqACe5ybEjf6kldjn7UnmqWiByFdtjuVRjfWRflPBoUp9usdgmI8x_rW1B3_QkIofR3E&usqp=CAU",
+      "name": "Zafu Meditation Cushion",
+      "price": 29.95,
+      "short_description": "Traditional meditation cushion",
+      "long_description": "Experience the comfort of traditional meditation with this Zafu cushion. Its round shape provides optimal height and support for a proper meditation posture. The durable cotton cover is removable and machine washable for easy maintenance."
+    },
+    {
+      "id": "12",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREa4cirgiiewTKLn3zsO0SVjtbzgo5JwwF4kUQzsl4qlOIM7PKNWO7YXJVleKIpHjkP4k&usqp=CAU",
+      "name": "Cork Yoga Blocks",
+      "price": 19.99,
+      "short_description": "Natural cork yoga blocks",
+      "long_description": "Enhance your yoga practice with these natural cork yoga blocks. They provide stable support for various poses and help improve alignment. Cork material is eco-friendly, non-slip, and easy to grip. A versatile prop for yoga practitioners of all levels."
+    }
+  ]
+  
