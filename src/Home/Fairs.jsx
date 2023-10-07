@@ -1,4 +1,4 @@
-import fair from "../../public/images/images.jfif";
+import fair from "../../public/images/health-fair-marketing-final-draft.jpg";
 import fair2 from "../../public/images/istockphoto-1306247421-170667a.webp";
 import fair3 from "../../public/images/360_F_579232550_T652ihi4kkYuhOEJXMEJRb10DjiHZsw9.jpg";
 import fair4 from "../../public/images/istockphoto-638362318-612x612.jpg"
@@ -44,7 +44,7 @@ const Fairs = () => {
         </a>
       </div>
 
-      <div className=" m-5 space-y-4">
+      <div className=" m-5 space-y-4 w-11/12 mx-auto">
         <p className="text-3xl text-center font-bold text-blue-600">About The Health Fair</p>
         <p className="text-left text-lg">A health fair is an organized event where a variety of healthcare providers, organizations, and professionals come together to provide health information, screenings, and services to the public. Health fairs are typically held in community centers, schools, workplaces, or other public venues and aim to promote health and wellness among attendees. Here are some key details about health fairs:</p>
         <p className="text-left text-lg"><span className="text-blue-600">1. Purpose:</span> Health fairs are organized to raise awareness about various health issues, promote preventive care, and educate the community about healthy lifestyles. They often focus on topics such as general health, nutrition, fitness, mental health, disease prevention, and available healthcare services.</p>
