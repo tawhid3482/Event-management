@@ -1,6 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../public/images/logo.png";
-import pf from "../../public/images/profile.png";
 import UseHook from "../CustomHook/UseHook";
 
 const Navbar = () => {

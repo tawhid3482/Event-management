@@ -1,6 +1,6 @@
 import slider1 from '../../public/images/HOMEPAGE-Small-Promo-PaRIS-1000x563.jpg'
-import slider2 from '../../public/images/istockphoto-1203995945-170667a.jpg'
-import slider3 from '../../public/images/istockphoto-1428722087-170667a.webp'
+import slider2 from '../../public/images/https___cdn.evbuc.com_images_493744389_225696259576_1_original.jfif'
+import slider3 from '../../public/images/https___cdn.evbuc.com_images_610273939_565586356411_1_original.jfif'
 import slider4 from '../../public/images/photo-1544367567-0f2fcb009e0b.jfif'
 const Banner = () => {
   return (
