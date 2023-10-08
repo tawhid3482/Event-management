@@ -7,7 +7,9 @@ const YogaDetailsCard = ({ yoga }) => {
         <Helmet>
                 <title>Health-Yoga Details</title>
             </Helmet>
-      <div className="card card-side w-full h-60 bg-base-100 shadow-xl">
+      <div className="card card-side w-full h-60 bg-base-100 shadow-xl"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <figure>
           <img className="w-full" src={img} alt="Movie" />
         </figure>

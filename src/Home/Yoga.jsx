@@ -18,11 +18,11 @@ const Yoga = () => {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Yoga and Fitness</h1>
+            <h1 className="mb-5 text-5xl font-bold" data-aos="fade-left">Yoga and Fitness</h1>
             <p
               className="mb-5 text-lg
       "
-            >
+      data-aos="fade-right" >
               Yoga is a holistic practice that originated in ancient India and
               has been around for thousands of years. It encompasses a variety
               of physical, mental, and spiritual exercises designed to promote
