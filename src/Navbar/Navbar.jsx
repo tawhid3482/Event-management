@@ -1,10 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../public/images/logo.png";
 import UseHook from "../CustomHook/UseHook";
-
+import pf from "../../public/images/profile.png";
 const Navbar = () => {
-    const {user,logout}=UseHook()
-
+  const { user, logout } = UseHook();
 
   const nav_items = (
     <>
@@ -28,7 +27,6 @@ const Navbar = () => {
       </li>
     </>
   );
-
 
   return (
     <div>
@@ -58,40 +56,52 @@ const Navbar = () => {
               {nav_items}
             </ul>
           </div>
-      <div className="">
-        <img src={logo}  className='w-60 h-20' alt="" />
-      </div>
+          <div className="">
+            <img src={logo} className="w-60 h-20" alt="" />
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1  gap-4">{nav_items}</ul>
         </div>
         <div className="navbar-end">
-
-        {
-            user?  <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-              <div className="w-10 rounded-full">      
-                  <img src={user?.photoURL} alt="" />   
-              </div>
-            </label>
-            <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
-              <li>
-             
-              </li>
-              <li>
-                <button className="btn btn-sm">
-                  <p>{user?.displayName}</p>
-                </button>
-              </li>
-              <li><button className="flex justify-center btn btn-sm" onClick={logout}>Logout</button></li>
-            </ul>
-          </div> :  <div className="">
-            <Link to='/login'>
+          {user ? (
+            <div className="dropdown dropdown-end">
+              <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                <div className="w-10 rounded-full">
+                  {user?.photoURL ? (
+                    <img src={user?.photoURL} alt="" />
+                  ) : (
+                    <img src={pf} alt="" />
+                  )}
+                </div>
+              </label>
+              <ul
+                tabIndex={0}
+                className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+              >
+                <li></li>
+                <li>
+                  <button className="btn btn-sm">
+                    <p>{user?.displayName}</p>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    className="flex justify-center btn btn-sm"
+                    onClick={logout}
+                  >
+                    Logout
+                  </button>
+                </li>
+              </ul>
+            </div>
+          ) : (
+            <div className="">
+              <Link to="/login">
                 <button className="btn">Login</button>
-            </Link>
-        </div>
-
-        }
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>
