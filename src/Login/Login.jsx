@@ -28,6 +28,7 @@ const Login = () => {
         swal("Good Job", "Successfully Your are logined", "success");
       })
       .catch((error) => {
+        console.error(error)
         swal("Sorry", "Something wrong", "error");
       });
   };
