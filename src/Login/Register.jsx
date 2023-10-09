@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import UseHook from "../CustomHook/UseHook";
 import swal from "sweetalert";
 import { FcGoogle } from "react-icons/fc";
+import { reload } from "firebase/auth";
 
 const Register = () => {
   const navigate = useNavigate()
@@ -38,6 +39,7 @@ const Register = () => {
       .then((res) => {
         console.log(res.user);
         userinfo(name,photo).then(() => {
+          window.location.reload()
           swal("Good Job", "Successfully Created Account", "success");
          navigate('/')
         });

@@ -12,7 +12,7 @@
 
 
 
-                  MCQ question start here
+                 -- MCQ question start here--
 
 1/ let greeting;
 greetign = {};
@@ -79,5 +79,11 @@ Answer:=> C: 3
 explanation:=> The condition if (num) evaluates to true for numbers 1, 2, and 3 in the array. For each truthy value encountered, the count variable is incremented. Therefore, count becomes 3, and console.log(count) outputs 3.
 
 
+
+                   ---- My Project----
+[Health and Wellness Event](https://assigment-9-b7270.web.app)
+
+  Name: Health and Wellness Event
+  live link:  https://assigment-9-b7270.web.app                  
 
 
