@@ -39,9 +39,10 @@ const Register = () => {
       .then((res) => {
         console.log(res.user);
         userinfo(name,photo).then(() => {
-          window.location.reload()
           swal("Good Job", "Successfully Created Account", "success");
-         navigate('/')
+          navigate('/')
+          
+          window.location.reload()
         });
       })
       .catch((error) => {

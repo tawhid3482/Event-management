@@ -24,6 +24,7 @@ const Login = () => {
       .then((res) => {
         console.log(res.user);
         Navigate(location?.state ? location.state : '/')
+        window.location.reload()
         swal("Good Job", "Successfully Your are logined", "success");
       })
       .catch((error) => {

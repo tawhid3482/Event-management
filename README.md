@@ -76,7 +76,7 @@ C: 3
 D: 4
 
 Answer:=> C: 3
-
+n
 Explanation:=> The condition if (num) evaluates to true for numbers 1, 2, and 3 in the array. For each truthy value encountered, the count variable is incremented. Therefore, count becomes 3, and console.log(count) outputs 3.
 
 
