@@ -1,20 +1,23 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import UseHook from "../CustomHook/UseHook";
 import swal from "sweetalert";
 import { FcGoogle } from "react-icons/fc";
 
 const Register = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+
   const { createUserByEmail, googleLogin, userinfo } = UseHook();
 
   const handlelogin = (media) => {
     media();
+    swal("Good Job", "Successfully Your are logined", "success");
+    navigate("/");
   };
   const handleRegister = (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
     const name = form.get("name");
-    const photo = form.get("photo")
+    const photo = form.get("photo");
     const email = form.get("email");
     const password = form.get("password");
 
@@ -37,11 +40,11 @@ const Register = () => {
     createUserByEmail(email, password)
       .then((res) => {
         console.log(res.user);
-        userinfo(name,photo).then(() => {
+        userinfo(name, photo).then(() => {
           swal("Good Job", "Successfully Created Account", "success");
-          navigate('/')
+          navigate("/");
 
-          window.location.reload()
+          window.location.reload();
         });
       })
       .catch((error) => {
@@ -108,7 +111,9 @@ const Register = () => {
           </div>
 
           <div className="form-control mt-6">
-            <button className="btn bg-base-300 hover:bg-blue-500 hover:text-white">Register</button>
+            <button className="btn bg-base-300 hover:bg-blue-500 hover:text-white">
+              Register
+            </button>
           </div>
         </form>
         <p>
